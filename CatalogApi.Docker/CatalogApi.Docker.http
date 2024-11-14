@@ -1,0 +1,6 @@
+@CatalogApi.Docker_HostAddress = http://localhost:5097
+
+GET {{CatalogApi.Docker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
