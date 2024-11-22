@@ -1,8 +1,8 @@
 
-using CatalogApi.Docker.Data;
-using CatalogApi.Docker.Repositories;
+using Catalog.Api.Data;
+using Catalog.Api.Repositories;
 
-namespace CatalogApi.Docker
+namespace Catalog.Api
 {
     public class Program
     {

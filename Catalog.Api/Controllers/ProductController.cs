@@ -1,9 +1,9 @@
-﻿using CatalogApi.Docker.Entities;
-using CatalogApi.Docker.Repositories;
+﻿using Catalog.Api.Entities;
+using Catalog.Api.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CatalogApi.Docker.Controllers
+namespace Catalog.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,7 +1,7 @@
-﻿using CatalogApi.Docker.Entities;
+﻿using Catalog.Api.Entities;
 using MongoDB.Driver;
 
-namespace CatalogApi.Docker.Data
+namespace Catalog.Api.Data
 {
     public class ProductContextSeed
     {

@@ -3,11 +3,21 @@ services:
   catalogdb:
     image : mongo
 
-  catalogapi.docker:
+  basketdb:
+    image : redis:alpine
+
+  catalog.api:
     image: ${DOCKER_REGISTRY-}catalogapidocker
     build:
       context: .
-      dockerfile: CatalogApi.Docker/Dockerfile
+      dockerfile: Catalog.Api/Dockerfile
+
+  basket.api:
+    image: ${DOCKER_REGISTRY-}basketapi
+    build:
+      context: .
+      dockerfile: Basket.Api/Dockerfile
 
 volumes:
   mongo_data:   
+

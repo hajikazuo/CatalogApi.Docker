@@ -1,6 +1,6 @@
-﻿using CatalogApi.Docker.Entities;
+﻿using Catalog.Api.Entities;
 
-namespace CatalogApi.Docker.Repositories
+namespace Catalog.Api.Repositories
 {
     public interface IProductRepository
     {

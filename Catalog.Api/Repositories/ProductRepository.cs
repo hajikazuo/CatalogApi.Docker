@@ -1,8 +1,8 @@
-﻿using CatalogApi.Docker.Data;
-using CatalogApi.Docker.Entities;
+﻿using Catalog.Api.Data;
+using Catalog.Api.Entities;
 using MongoDB.Driver;
 
-namespace CatalogApi.Docker.Repositories
+namespace Catalog.Api.Repositories
 {
     public class ProductRepository : IProductRepository
     {
