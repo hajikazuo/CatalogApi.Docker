@@ -2,3 +2,9 @@ CREATE TABLE Coupon(Id SERIAL PRIMARY KEY,
     ProductName VARCHAR(24) NOT NULL,
 	Description TEXT,
 	Amount INT);
+
+INSERT INTO Coupon (ProductName, Description, Amount) 
+VALUES ('Smartphone', 'Smartphone Samsung Galaxy S23', 500);
+
+INSERT INTO Coupon (ProductName, Description, Amount) 
+VALUES ('Tablet', 'Tablet Apple iPad Pro', 300);
